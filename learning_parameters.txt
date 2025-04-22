@@ -1,0 +1,17 @@
+dataPath = DATA/
+netPath = examplel_net1_ax/
+
+MRIchannels = [T1.nrrd]
+CT = CT.nrrd
+skin = SKIN.nrrd
+
+learningRate = [0.00005]
+epochs = 80
+lambda = 0.0004
+batchSize = 4
+loss = masked
+continueEpoch = -
+filtersInitNum = 64
+dropout = 0.1
+selectedView = axial
+orientation = SAC
